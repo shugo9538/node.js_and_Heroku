@@ -4,7 +4,7 @@ const mongoose = require("mongoose"),
   Course = require("./models/course");
 mongoose.Promise = global.Promise;
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/recipe_db",
+  process.env.MONGODB_URI || "mongodb+srv://shugo9538:2tmdwn8247-@cluster0.9inua.mongodb.net/recipe_db",
   { useNewUrlParser: true }
 );
 Course.remove({})
