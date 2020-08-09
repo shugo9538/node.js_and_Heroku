@@ -4,8 +4,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    "start": "node main.js"
   },
   "author": "Jon Wexler",
   "license": "ISC",
@@ -32,8 +31,5 @@
   "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-plugin-react": "^7.20.5"
-  },
-  "engines": {
-    "node": "10.16.0"
   }
 }
