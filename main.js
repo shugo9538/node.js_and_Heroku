@@ -20,7 +20,8 @@ const express = require("express"),
 
 mongoose.Promise = global.Promise;
 mongoose.connect(
-  "mongodb://localhost:27017/recipe_db", {
+  // "mongodb://localhost:27017/recipe_db", {
+  "mongodb+srv://shugo9538:2tmdwn8247-@cluster0.9inua.mongodb.net/recipe_db", {
     useNewUrlParser: true,
     useFindAndModify: false
   }
