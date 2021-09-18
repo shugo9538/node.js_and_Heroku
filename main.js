@@ -24,7 +24,7 @@ mongoose.Promise = global.Promise;
 if (process.env.NODE_ENV === "test") {
   mongoose.connect(
     "mongodb://localhost:27017/recipe_db_test", {
-    // "mongodb+srv://shugo9538:2tmdwn8247-@cluster0.9inua.mongodb.net/recipe_test_db", {
+    // "mongodb+srv://id:password@cluster0.9inua.mongodb.net/recipe_test_db", {
       useNewUrlParser: true,
       useFindAndModify: false
     }
