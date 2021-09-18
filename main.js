@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === "test") {
 else {
   mongoose.connect(
     // "mongodb://localhost:27017/recipe_db", {
-      process.env.MONGODB_URI || "mongodb+srv://shugo9538:2tmdwn8247-@cluster0.9inua.mongodb.net/recipe_db",{
+      process.env.MONGODB_URI || "mongodb+srv://id:password@cluster0.9inua.mongodb.net/recipe_db",{
         useNewUrlParser: true,
         useFindAndModify: false
       }
